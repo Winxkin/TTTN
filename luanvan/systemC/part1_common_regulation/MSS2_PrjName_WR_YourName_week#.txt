@@ -1,0 +1,72 @@
+******************************************************************
+**  MSS2 group: FROG project                                    **
+**  Name:                                                       **
+**  Period : Week 34 (Aug 14th - Aug 18th)                      **
+******************************************************************
+
+Headlines
+==================
+[FROG development]
+    1) Support many virtual machine
+	  - Highlight description (e.g continute source code implementation and completed 3/4 steps ...)
+	2) Maintain source code
+	  - Highlight description
+	
+[Other task]
+	3) Task A
+	  - Highlight description
+
+Activities
+==================
+[FROG development]
+    1) Support many virtual machine
+         - Investigate HWM   			                             (100%)[ 0D][D/L: Aug/11th]
+            .Output: Investigated 3/4 new features (X, Y,Z)
+			#Issue: {Reason of delay and/or any issue occured}
+            #Countermeasure: {Action to recover delay and/or solution for issue}
+			#Info: (Any informaiton)
+         - Creare Design Specification                                (20-> 80%)[-1D][D/L: Aug/18th]
+            .Output:  Detailed design document (8 -> 10 pages)
+            #Issue: {Reason of delay and/or any issue occured}
+            #Countermeasure: {Action to recover delay and/or solution for issue}
+			#Info: (Any informaiton)
+         - Create Check list (PCL)                                    (0 -> 50%)[ 0D][D/L: Aug/25th]
+            .Output:  Item number for feature X: 20 (100% of weight 20%)
+	                  Item number for feature Y: 10 (100% of weight 30%)
+					  Item number for feature Z:  0 (0% of weight 50%)
+			#Issue: {Reason of delay and/or any issue occured}
+            #Countermeasure: {Action to recover delay and/or solution for issue}
+			#Info: (Any informaiton)
+         - Peer Review for Detailed Design document				      (0 ->100%)[ 0D][D/L: Aug/18th]
+		    .Output: 3 defects
+			#Issue: {Reason of delay and/or any issue occured}
+            #Countermeasure: {Action to recover delay and/or solution for issue}
+			#Info: (Any informaiton)
+         - Implement source code									  (0 -> 80%)[ 0D][D/L: Aug/31th]
+            .Output: Feature: X (100% of weight 20%)
+                     Feature: Y (100% of weight 30%)
+					 Feature: Z (20% of weight 50%)
+		    #Issue: {Reason of delay and/or any issue occured}
+            #Countermeasure: {Action to recover delay and/or solution for issue}
+			#Info: (Any informaiton)
+	2) Maintain source code
+	     {Same above explanation}
+		 
+[Other task]
+	3) Task A
+		 {Same above explanation}
+
+Action Items
+==================
+[FROG development]
+    1) Support many virtual machine
+         - Create Check list (PCL)                                    (50->100%)[D/L: Aug/25th]
+		   Create test item for feature Z (0->100%)
+		 - Implement source code									  (80->100%)[D/L: Aug/31th]
+           Feature: Z (0%->100%)
+    2) Maintain source code
+	     {Same above explanation}
+		 
+[Other task]
+	3) Task A
+		 {Same above explanation}

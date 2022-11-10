@@ -1,0 +1,167 @@
+###############################
+## INTC2G_U2_source_20181119.7z
+###############################
+- Release info: alpha source code( fix interface)
+
+- Release date: Nov 19, 2018.
+
+- File (CVS repository):
+	+ INTC2G_U2.cpp						(v1.1)
+	+ INTC2G_U2_AgentController.h           		(v1.1)
+	+ intc2g_u2_regif.cpp			        	(v1.1)
+	+ INTC2G_U2_Common_Guard.cpp				(v1.1)
+	+ INTC2G_U2_Common_Guard.h				(v1.1)
+	+ INTC2G_U2.h						(v1.1)
+	+ PY_INTC2G_U2.cpp					(v1.1)
+	+ PY_INTC2G_U2.h					(v1.1)
+	+ INTC2G_U2_Func.cpp			        	(v1.1)
+	+ intc2g_u2_regif.h					(v1.1)
+
+###############################
+## INTC2G_U2_source_20181120.7z
+###############################
+- Release info: Update alpha code at interface as ticket #78013
+
+- Release date: Nov 20, 2018.
+
+- File (CVS repository):
+    INTC2G_U2.cpp               1.2
+    INTC2G_U2.h                 1.2
+    INTC2G_U2_AgentController.h 1.2
+    INTC2G_U2_Common_Guard.cpp  1.1
+    INTC2G_U2_Common_Guard.h    1.1
+    INTC2G_U2_Func.cpp          1.1
+    INTC2G_U2_Func.h            1.1
+    INTC2G_U2_cmdif.h           1.1
+    PY_INTC2G_U2.cpp            1.2
+    PY_INTC2G_U2.h              1.2
+    intc2g_u2_regif.cpp         1.1
+    intc2g_u2_regif.h           1.1
+        
+    Update code to remove PRESETn port, keep 1 resetPort from BusBridgeModule only.
+
+###############################
+## INTC2G_U2_source_20181130.7z
+###############################
+- Release info: Fix source code after coding phase.
+
+- Release date: Nov 30, 2018.
+
+- File (CVS repository):
+    INTC2G_U2.cpp               1.9
+    INTC2G_U2.h                 1.7
+    INTC2G_U2_AgentController.h 1.5
+    INTC2G_U2_Common_Guard.cpp  1.3
+    INTC2G_U2_Common_Guard.h    1.2
+    INTC2G_U2_Func.cpp          1.4
+    INTC2G_U2_Func.h            1.4
+    INTC2G_U2_cmdif.h           1.1
+    PY_INTC2G_U2.cpp            1.3
+    PY_INTC2G_U2.h              1.3
+    intc2g_u2_regif.cpp         1.4
+    intc2g_u2_regif.h           1.4
+
+###############################
+## INTC2G_U2_source_20181203.7z
+###############################
+- Release info: Fix source code after coding phase with code review 1.
+
+- Release date: Dec 03, 2018.
+
+- File (CVS repository):
+    INTC2G_U2.cpp               1.10
+    INTC2G_U2.h                 1.9
+    INTC2G_U2_AgentController.h 1.7
+    INTC2G_U2_Common_Guard.cpp  1.5
+    INTC2G_U2_Common_Guard.h    1.3
+    INTC2G_U2_Func.cpp          1.5
+    INTC2G_U2_Func.h            1.5
+    INTC2G_U2_cmdif.h           1.1
+    PY_INTC2G_U2.cpp            1.4
+    PY_INTC2G_U2.h              1.4
+    intc2g_u2_regif.cpp         1.6
+    intc2g_u2_regif.h           1.5
+
+###############################
+## INTC2G_U2_source_20181205.7z
+###############################
+- Release info: Fix bug transfer to slave while no setting for guard.
+
+- Release date: Dec 05, 2018.
+
+- File (CVS repository):
+    INTC2G_U2.cpp               1.11
+    INTC2G_U2.h                 1.10
+    INTC2G_U2_AgentController.h 1.8
+    INTC2G_U2_Common_Guard.cpp  1.8
+    INTC2G_U2_Common_Guard.h    1.4
+    INTC2G_U2_Func.cpp          1.8
+    INTC2G_U2_Func.h            1.8
+    INTC2G_U2_cmdif.h           1.1
+    PY_INTC2G_U2.cpp            1.4
+    PY_INTC2G_U2.h              1.4
+    intc2g_u2_regif.cpp         1.6
+    intc2g_u2_regif.h           1.5
+
+###############################
+## INTC2G_U2_source_20181206.7z
+###############################
+- Release info: Fix bug transfer in AT mode.
+
+- Release date: Dec 06, 2018.
+
+- File (CVS repository):
+    INTC2G_U2.cpp               1.11
+    INTC2G_U2.h                 1.10
+    INTC2G_U2_AgentController.h 1.8
+    INTC2G_U2_Common_Guard.cpp  1.9
+    INTC2G_U2_Common_Guard.h    1.4
+    INTC2G_U2_Func.cpp          1.8
+    INTC2G_U2_Func.h            1.8
+    INTC2G_U2_cmdif.h           1.1
+    PY_INTC2G_U2.cpp            1.4
+    PY_INTC2G_U2.h              1.4
+    intc2g_u2_regif.cpp         1.6
+    intc2g_u2_regif.h           1.5
+
+###############################
+## INTC2G_U2_source_20181225.7z
+###############################
+- Release info: Fix source code after functional debug.
+
+- Release date: Dec 25, 2018.
+
+- File (CVS repository):
+    INTC2G_U2.cpp               1.12
+    INTC2G_U2.h                 1.11
+    INTC2G_U2_AgentController.h 1.9
+    INTC2G_U2_Common_Guard.cpp  1.16
+    INTC2G_U2_Common_Guard.h    1.6
+    INTC2G_U2_Func.cpp          1.9
+    INTC2G_U2_Func.h            1.9
+    INTC2G_U2_cmdif.h           1.1
+    PY_INTC2G_U2.cpp            1.4
+    PY_INTC2G_U2.h              1.4
+    intc2g_u2_regif.cpp         1.6
+    intc2g_u2_regif.h           1.5
+
+###############################
+## INTC2G_U2_Output_64bit_20181228.7z
+###############################
+- Release info: Fix source code after FDR 
+
+- Release date: Dec 28, 2018.
+
+- File (CVS repository):
+    INTC2G_U2.cpp               1.12
+    INTC2G_U2.h                 1.11
+    INTC2G_U2_AgentController.h 1.9
+    INTC2G_U2_Common_Guard.cpp  1.17
+    INTC2G_U2_Common_Guard.h    1.6
+    INTC2G_U2_Func.cpp          1.10
+    INTC2G_U2_Func.h            1.9
+    INTC2G_U2_cmdif.h           1.1
+    PY_INTC2G_U2.cpp            1.4
+    PY_INTC2G_U2.h              1.4
+    intc2g_u2_regif.cpp         1.6
+    intc2g_u2_regif.h           1.5

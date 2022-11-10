@@ -1,0 +1,84 @@
+%MODULE INTC2G_U2
+
+%%REG_INSTANCE  reg_def 14
+
+%REG_CHANNEL reg_def
+    %%TITLE     name                reg_name           wsize     rsize     length      offset      access      init           factor_start    factor_end      factor_step     support     callback
+    %%REG       INTC2GOVFCLR        INTC2GOVFCLR       32        8|16|32   32          0x0         R|W1:0      0x00000000     -               -               -               TRUE        W
+    %%REG       INTC2GOVFSTAT       INTC2GOVFSTAT      -         8|16|32   32          0x4         R           0x00000000     -               -               -               TRUE        -
+    %%REG       INTC2GERRADDR       INTC2GERRADDR      -         8|16|32   32          0x8         R           0x00000000     -               -               -               TRUE        -
+    %%REG       INTC2GERRTYPE       INTC2GERRTYPE      -         8|16|32   32          0xC         R           0x00000000     -               -               -               TRUE        -
+    %%REG       INTC2GSPIDERRCLR    INTC2GSPIDERRCLR   32        8|16|32   32          0x10        W1:0        0x00000000     -               -               -               TRUE        W
+    %%REG       INTC2GSPIDERRSTAT   INTC2GSPIDERRSTAT  -         8|16|32   32          0x14        R           0x00000000     -               -               -               TRUE        -
+    %%REG       INTC2GKCPROT        INTC2GKCPROT       32        8|16|32   32          0x18        R|W         0x00000000     -               -               -               TRUE        W
+    %%REG       INTC2GMPID          INTC2GMPID         32        8|16|32   32          0x40        R|W         0x00000000     0               15              -               TRUE        -
+    %%REG       INTC2GPROT_GR       INTC2GPROT_GR      32        8|16|32   32          0xF0        R|W         0x00000000     -               -               -               TRUE        -
+    %%REG       INTC2GPROT_IMR      INTC2GPROT_IMR     32        8|16|32   32          0xF4        R|W         0x00000000     -               -               -               TRUE        -
+    %%REG       INTC2GPROT_         INTC2GPROT_        32        8|16|32   32          0x100       R|W         0x00000000     32              2047            0x04            TRUE        -
+    
+
+
+%REG_NAME INTC2GOVFCLR
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       CLRO        1       1       0       R|W1:0  TRUE        W
+
+%REG_NAME INTC2GOVFSTAT
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       OVF         1       1       0       R       TRUE        -
+
+%REG_NAME INTC2GERRADDR
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       ADDR        31      0       0       R       TRUE        -
+
+%REG_NAME INTC2GERRTYPE
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       SEC         13      13      0       R       TRUE        -
+    %%BIT       DBG         12      12      0       R       TRUE        -
+    %%BIT       UM          11      11      0       R       TRUE        -
+    %%BIT       SPID        10      6       0       R       TRUE        -
+    %%BIT       WRITE       0       0       0       R       TRUE        -
+	
+%REG_NAME INTC2GSPIDERRCLR
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       SPIDCLR     31       0       0       W1:0      TRUE        W
+
+%REG_NAME INTC2GSPIDERRSTAT
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       SPIDERR     31       0       0       R      TRUE        -
+
+
+%REG_NAME INTC2GKCPROT
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       KCPROT      31      1       0       R|W     TRUE        W
+    %%BIT       KCE         0       0       0       R|W     TRUE        -
+
+%REG_NAME INTC2GMPID
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       SPID        4       0       0       R|W     TRUE        W|R
+
+%REG_NAME INTC2GPROT_GR
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       MPID        31      16      0       R|W     TRUE        W
+    %%BIT       GEN         8       8       0       R|W     TRUE        -
+    %%BIT       DBG         6       6       0       R|W     TRUE        -
+    %%BIT       UM          4       4       0       R|W     TRUE        -
+    %%BIT       WG          1       1       0       R|W     TRUE        -
+    %%BIT       RG          0       0       0       R|W     TRUE        -
+
+%REG_NAME INTC2GPROT_IMR
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       MPID        31      16      0       R|W     TRUE        W
+    %%BIT       GEN         8       8       0       R|W     TRUE        -
+    %%BIT       DBG         6       6       0       R|W     TRUE        -
+    %%BIT       UM          4       4       0       R|W     TRUE        -
+    %%BIT       WG          1       1       0       R|W     TRUE        -
+    %%BIT       RG          0       0       0       R|W     TRUE        -
+
+%REG_NAME INTC2GPROT_
+    %%TITLE     name        upper   lower   init    access  support     callback
+    %%BIT       MPID        31      16      0       R|W     TRUE        W
+    %%BIT       GEN         8       8       0       R|W     TRUE        -
+    %%BIT       DBG         6       6       0       R|W     TRUE        -
+    %%BIT       UM          4       4       0       R|W     TRUE        -
+    %%BIT       WG          1       1       0       R|W     TRUE        -
+    %%BIT       RG          0       0       0       R|W     TRUE        -
